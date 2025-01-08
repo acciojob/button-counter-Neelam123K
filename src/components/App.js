@@ -13,10 +13,12 @@ const App = () => {
       <button
         onClick={() => {
           setCount(count + 1);
+          console.log(`Button clicked ${setCount} times`);
         }}
       >
         Increment
       </button>
+    
     </div>
   );
 };
